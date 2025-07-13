@@ -1,0 +1,206 @@
+
+========== Header and First 5 Rows ==========
+Columns: ['id', 'url', 'source', 'retweetCount', 'replyCount', 'likeCount', 'quoteCount', 'viewCount', 'createdAt', 'lang', 'bookmarkCount', 'isReply', 'isRetweet', 'isQuote', 'isConversationControlled', 'quoteId', 'inReplyToId', 'month_year', 'illuminating_scored_message', 'election_integrity_Truth_illuminating', 'advocacy_msg_type_illuminating', 'issue_msg_type_illuminating', 'attack_msg_type_illuminating', 'image_msg_type_illuminating', 'cta_msg_type_illuminating', 'engagement_cta_subtype_illuminating', 'fundraising_cta_subtype_illuminating', 'voting_cta_subtype_illuminating', 'covid_topic_illuminating', 'economy_topic_illuminating', 'education_topic_illuminating', 'environment_topic_illuminating', 'foreign_policy_topic_illuminating', 'governance_topic_illuminating', 'health_topic_illuminating', 'immigration_topic_illuminating', 'lgbtq_issues_topic_illuminating', 'military_topic_illuminating', 'race_and_ethnicity_topic_illuminating', 'safety_topic_illuminating', 'social_and_cultural_topic_illuminating', 'technology_and_privacy_topic_illuminating', 'womens_issue_topic_illuminating', 'incivility_illuminating', 'scam_illuminating', 'freefair_illuminating', 'fraud_illuminating']
+shape: (5, 47)
+┌──────────────┬──────────────┬──────────────┬─────────────┬───┬─────────────┬─────────────┬─────────────┬─────────────┐
+│ id           ┆ url          ┆ source       ┆ retweetCoun ┆ … ┆ incivility_ ┆ scam_illumi ┆ freefair_il ┆ fraud_illum │
+│ ---          ┆ ---          ┆ ---          ┆ t           ┆   ┆ illuminatin ┆ nating      ┆ luminating  ┆ inating     │
+│ str          ┆ str          ┆ str          ┆ ---         ┆   ┆ g           ┆ ---         ┆ ---         ┆ ---         │
+│              ┆              ┆              ┆ f64         ┆   ┆ ---         ┆ f64         ┆ i64         ┆ i64         │
+│              ┆              ┆              ┆             ┆   ┆ f64         ┆             ┆             ┆             │
+╞══════════════╪══════════════╪══════════════╪═════════════╪═══╪═════════════╪═════════════╪═════════════╪═════════════╡
+│ cc46051622b8 ┆ f70a206472e9 ┆ Twitter for  ┆ 10.0        ┆ … ┆ 1.0         ┆ 0.0         ┆ 0           ┆ 0           │
+│ a9c1b883a3bb ┆ deaf6e313297 ┆ iPhone       ┆             ┆   ┆             ┆             ┆             ┆             │
+│ f12c64…      ┆ c1efb8…      ┆              ┆             ┆   ┆             ┆             ┆             ┆             │
+│ 0e3db0c35a29 ┆ a1962f549437 ┆ Twitter for  ┆ 421.0       ┆ … ┆ 1.0         ┆ 0.0         ┆ 0           ┆ 0           │
+│ 0c6df3b737d1 ┆ 32a0dc006c33 ┆ iPhone       ┆             ┆   ┆             ┆             ┆             ┆             │
+│ 588284…      ┆ b4b6f5…      ┆              ┆             ┆   ┆             ┆             ┆             ┆             │
+│ 256905919085 ┆ 4ddbbdb7f4d8 ┆ Twitter for  ┆ 39.0        ┆ … ┆ 1.0         ┆ 0.0         ┆ 0           ┆ 0           │
+│ d2946d5d187a ┆ ef62fccf3ed2 ┆ iPhone       ┆             ┆   ┆             ┆             ┆             ┆             │
+│ bc6cbe…      ┆ 0c993b…      ┆              ┆             ┆   ┆             ┆             ┆             ┆             │
+│ a461b32b31e7 ┆ c7e729c427e7 ┆ Twitter for  ┆ 47.0        ┆ … ┆ 0.0         ┆ 0.0         ┆ 0           ┆ 0           │
+│ 2b222df7fdda ┆ 14baf06d88a2 ┆ iPhone       ┆             ┆   ┆             ┆             ┆             ┆             │
+│ 0a8e68…      ┆ 856a1b…      ┆              ┆             ┆   ┆             ┆             ┆             ┆             │
+│ ca2795ec79d6 ┆ c589bd751d7e ┆ Twitter Web  ┆ 17.0        ┆ … ┆ 1.0         ┆ 0.0         ┆ 0           ┆ 0           │
+│ 2adc1fff06c4 ┆ 1d275901b184 ┆ App          ┆             ┆   ┆             ┆             ┆             ┆             │
+│ d3bc9d…      ┆ 087716…      ┆              ┆             ┆   ┆             ┆             ┆             ┆             │
+└──────────────┴──────────────┴──────────────┴─────────────┴───┴─────────────┴─────────────┴─────────────┴─────────────┘
+
+========== Descriptive Statistics for Entire Dataset ==========
+shape: (9, 48)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ id           ┆ url          ┆ source       ┆ … ┆ incivility_i ┆ scam_illumi ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ ---          ┆   ┆ lluminating  ┆ nating      ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ str          ┆   ┆ ---          ┆ ---         ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆ f64         ┆ f64         │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 27304        ┆ 27304        ┆ 27304        ┆ … ┆ 26034.0      ┆ 26034.0     ┆ 27304.0     ┆ 27304.0     │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 1270.0       ┆ 1270.0      ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.178574     ┆ 0.012368    ┆ 0.001428    ┆ 0.002747    │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.383003     ┆ 0.110526    ┆ 0.037767    ┆ 0.052339    │
+│ min        ┆ 0000635d0c9e ┆ 0000179c6b90 ┆ Canva        ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 7bdf89dfc138 ┆ 798f167528aa ┆              ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 11d080…      ┆ aaf678…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ fffbb471d8b0 ┆ ffffd63fa715 ┆ Twitter for  ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│            ┆ bd6d990b4f9f ┆ 74c0127b90e1 ┆ iPhone       ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 22283b…      ┆ 2fdba3…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+========== Top 3 Sources by Count ==========
+shape: (3, 2)
+┌────────────────────┬───────┐
+│ source             ┆ len   │
+│ ---                ┆ ---   │
+│ str                ┆ u32   │
+╞════════════════════╪═══════╡
+│ Twitter Web App    ┆ 14930 │
+│ Twitter for iPhone ┆ 8494  │
+│ Sprout Social      ┆ 2933  │
+└────────────────────┴───────┘
+
+========== Grouped by source (First 3) ==========
+
+Group: source = Twitter for iPhone
+shape: (9, 48)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ id           ┆ url          ┆ source       ┆ … ┆ incivility_i ┆ scam_illumi ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ ---          ┆   ┆ lluminating  ┆ nating      ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ str          ┆   ┆ ---          ┆ ---         ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆ f64         ┆ f64         │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 8494         ┆ 8494         ┆ 8494         ┆ … ┆ 8168.0       ┆ 8168.0      ┆ 8494.0      ┆ 8494.0      │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 326.0        ┆ 326.0       ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.141895     ┆ 0.010162    ┆ 0.000942    ┆ 0.003414    │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.348964     ┆ 0.100297    ┆ 0.030677    ┆ 0.058335    │
+│ min        ┆ 00008766c5fc ┆ 0003e974bd24 ┆ Twitter for  ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 0cb57b4d7679 ┆ d889ef9e0d59 ┆ iPhone       ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 2f8f1c…      ┆ 175178…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ fffbb471d8b0 ┆ ffffd63fa715 ┆ Twitter for  ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│            ┆ bd6d990b4f9f ┆ 74c0127b90e1 ┆ iPhone       ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 22283b…      ┆ 2fdba3…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: source = Twitter Media Studio
+shape: (9, 48)
+┌────────────┬───────────────┬───────────────┬─────────┬───┬──────────────┬──────────────┬──────────────┬──────────────┐
+│ statistic  ┆ id            ┆ url           ┆ source  ┆ … ┆ incivility_i ┆ scam_illumin ┆ freefair_ill ┆ fraud_illumi │
+│ ---        ┆ ---           ┆ ---           ┆ ---     ┆   ┆ lluminating  ┆ ating        ┆ uminating    ┆ nating       │
+│ str        ┆ str           ┆ str           ┆ str     ┆   ┆ ---          ┆ ---          ┆ ---          ┆ ---          │
+│            ┆               ┆               ┆         ┆   ┆ f64          ┆ f64          ┆ f64          ┆ f64          │
+╞════════════╪═══════════════╪═══════════════╪═════════╪═══╪══════════════╪══════════════╪══════════════╪══════════════╡
+│ count      ┆ 499           ┆ 499           ┆ 499     ┆ … ┆ 459.0        ┆ 459.0        ┆ 499.0        ┆ 499.0        │
+│ null_count ┆ 0             ┆ 0             ┆ 0       ┆ … ┆ 40.0         ┆ 40.0         ┆ 0.0          ┆ 0.0          │
+│ mean       ┆ null          ┆ null          ┆ null    ┆ … ┆ 0.100218     ┆ 0.0          ┆ 0.006012     ┆ 0.002004     │
+│ std        ┆ null          ┆ null          ┆ null    ┆ … ┆ 0.300618     ┆ 0.0          ┆ 0.077381     ┆ 0.044766     │
+│ min        ┆ 008343276015e ┆ 00bf0f0e23411 ┆ Twitter ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│            ┆ 68ec615827952 ┆ 856f5202d5174 ┆ Media   ┆   ┆              ┆              ┆              ┆              │
+│            ┆ a525…         ┆ 6851…         ┆ Studio  ┆   ┆              ┆              ┆              ┆              │
+│ 25%        ┆ null          ┆ null          ┆ null    ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ 50%        ┆ null          ┆ null          ┆ null    ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ 75%        ┆ null          ┆ null          ┆ null    ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ max        ┆ ff6ee359f511f ┆ ff336a0617edc ┆ Twitter ┆ … ┆ 1.0          ┆ 0.0          ┆ 1.0          ┆ 1.0          │
+│            ┆ eecfbcad25f2b ┆ 22a2721011d77 ┆ Media   ┆   ┆              ┆              ┆              ┆              │
+│            ┆ 26fa…         ┆ 5d8c…         ┆ Studio  ┆   ┆              ┆              ┆              ┆              │
+└────────────┴───────────────┴───────────────┴─────────┴───┴──────────────┴──────────────┴──────────────┴──────────────┘
+
+Group: source = Later Media
+shape: (9, 48)
+┌────────────┬──────────────┬──────────────┬─────────────┬───┬──────────────┬──────────────┬─────────────┬─────────────┐
+│ statistic  ┆ id           ┆ url          ┆ source      ┆ … ┆ incivility_i ┆ scam_illumin ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ ---         ┆   ┆ lluminating  ┆ ating        ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ str         ┆   ┆ ---          ┆ ---          ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆             ┆   ┆ f64          ┆ f64          ┆ f64         ┆ f64         │
+╞════════════╪══════════════╪══════════════╪═════════════╪═══╪══════════════╪══════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1           ┆ … ┆ 1.0          ┆ 1.0          ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0           ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null        ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null        ┆ … ┆ null         ┆ null         ┆ null        ┆ null        │
+│ min        ┆ 2d9cfc7b3801 ┆ 5fc4e0f1baa6 ┆ Later Media ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0         ┆ 0.0         │
+│            ┆ 57ca2d41ac35 ┆ eb4aaf3bc4b2 ┆             ┆   ┆              ┆              ┆             ┆             │
+│            ┆ c61fe9…      ┆ 190552…      ┆             ┆   ┆              ┆              ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null        ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null        ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null        ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0         ┆ 0.0         │
+│ max        ┆ 2d9cfc7b3801 ┆ 5fc4e0f1baa6 ┆ Later Media ┆ … ┆ 0.0          ┆ 0.0          ┆ 0.0         ┆ 0.0         │
+│            ┆ 57ca2d41ac35 ┆ eb4aaf3bc4b2 ┆             ┆   ┆              ┆              ┆             ┆             │
+│            ┆ c61fe9…      ┆ 190552…      ┆             ┆   ┆              ┆              ┆             ┆             │
+└────────────┴──────────────┴──────────────┴─────────────┴───┴──────────────┴──────────────┴─────────────┴─────────────┘
+
+========== Grouped by source + id (First 3) ==========
+
+Group: source = Twitter Web App, id = f653f1d8ad95d830557b94de943be3f8f9fa15db8a46a0dc1604616e3702938a
+shape: (9, 48)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ id           ┆ url          ┆ source       ┆ … ┆ incivility_i ┆ scam_illumi ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ ---          ┆   ┆ lluminating  ┆ nating      ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ str          ┆   ┆ ---          ┆ ---         ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆ f64         ┆ f64         │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ f653f1d8ad95 ┆ 5191cf9c090d ┆ Twitter Web  ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ d830557b94de ┆ a82eb3f513e3 ┆ App          ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 943be3…      ┆ 37c8f3…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ f653f1d8ad95 ┆ 5191cf9c090d ┆ Twitter Web  ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ d830557b94de ┆ a82eb3f513e3 ┆ App          ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 943be3…      ┆ 37c8f3…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: source = Twitter Web App, id = 260399b6956a5259adc1319d360433f1a5831358df606974e821d089597ca596
+shape: (9, 48)
+┌────────────┬──────────────┬──────────────┬──────────────┬───┬──────────────┬─────────────┬─────────────┬─────────────┐
+│ statistic  ┆ id           ┆ url          ┆ source       ┆ … ┆ incivility_i ┆ scam_illumi ┆ freefair_il ┆ fraud_illum │
+│ ---        ┆ ---          ┆ ---          ┆ ---          ┆   ┆ lluminating  ┆ nating      ┆ luminating  ┆ inating     │
+│ str        ┆ str          ┆ str          ┆ str          ┆   ┆ ---          ┆ ---         ┆ ---         ┆ ---         │
+│            ┆              ┆              ┆              ┆   ┆ f64          ┆ f64         ┆ f64         ┆ f64         │
+╞════════════╪══════════════╪══════════════╪══════════════╪═══╪══════════════╪═════════════╪═════════════╪═════════════╡
+│ count      ┆ 1            ┆ 1            ┆ 1            ┆ … ┆ 1.0          ┆ 1.0         ┆ 1.0         ┆ 1.0         │
+│ null_count ┆ 0            ┆ 0            ┆ 0            ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ mean       ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ std        ┆ null         ┆ null         ┆ null         ┆ … ┆ null         ┆ null        ┆ null        ┆ null        │
+│ min        ┆ 260399b6956a ┆ 6b41c4d18ca4 ┆ Twitter Web  ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 5259adc1319d ┆ 8c0ff8e4d51d ┆ App          ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 360433…      ┆ 72dac0…      ┆              ┆   ┆              ┆             ┆             ┆             │
+│ 25%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 50%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ 75%        ┆ null         ┆ null         ┆ null         ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│ max        ┆ 260399b6956a ┆ 6b41c4d18ca4 ┆ Twitter Web  ┆ … ┆ 0.0          ┆ 0.0         ┆ 0.0         ┆ 0.0         │
+│            ┆ 5259adc1319d ┆ 8c0ff8e4d51d ┆ App          ┆   ┆              ┆             ┆             ┆             │
+│            ┆ 360433…      ┆ 72dac0…      ┆              ┆   ┆              ┆             ┆             ┆             │
+└────────────┴──────────────┴──────────────┴──────────────┴───┴──────────────┴─────────────┴─────────────┴─────────────┘
+
+Group: source = Sprout Social, id = 02deedd45f3839440f23aa0f8556c3ec90bc8370f8ced3f48cb7e4ee8485eef1
+shape: (9, 48)
+┌────────────┬───────────────┬───────────────┬────────┬───┬───────────────┬──────────────┬──────────────┬──────────────┐
+│ statistic  ┆ id            ┆ url           ┆ source ┆ … ┆ incivility_il ┆ scam_illumin ┆ freefair_ill ┆ fraud_illumi │
+│ ---        ┆ ---           ┆ ---           ┆ ---    ┆   ┆ luminating    ┆ ating        ┆ uminating    ┆ nating       │
+│ str        ┆ str           ┆ str           ┆ str    ┆   ┆ ---           ┆ ---          ┆ ---          ┆ ---          │
+│            ┆               ┆               ┆        ┆   ┆ f64           ┆ f64          ┆ f64          ┆ f64          │
+╞════════════╪═══════════════╪═══════════════╪════════╪═══╪═══════════════╪══════════════╪══════════════╪══════════════╡
+│ count      ┆ 1             ┆ 1             ┆ 1      ┆ … ┆ 1.0           ┆ 1.0          ┆ 1.0          ┆ 1.0          │
+│ null_count ┆ 0             ┆ 0             ┆ 0      ┆ … ┆ 0.0           ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ mean       ┆ null          ┆ null          ┆ null   ┆ … ┆ 0.0           ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ std        ┆ null          ┆ null          ┆ null   ┆ … ┆ null          ┆ null         ┆ null         ┆ null         │
+│ min        ┆ 02deedd45f383 ┆ 4e4c8619b7c3e ┆ Sprout ┆ … ┆ 0.0           ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│            ┆ 9440f23aa0f85 ┆ fe7ef909c8674 ┆ Social ┆   ┆               ┆              ┆              ┆              │
+│            ┆ 56c3…         ┆ 466d…         ┆        ┆   ┆               ┆              ┆              ┆              │
+│ 25%        ┆ null          ┆ null          ┆ null   ┆ … ┆ 0.0           ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ 50%        ┆ null          ┆ null          ┆ null   ┆ … ┆ 0.0           ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ 75%        ┆ null          ┆ null          ┆ null   ┆ … ┆ 0.0           ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│ max        ┆ 02deedd45f383 ┆ 4e4c8619b7c3e ┆ Sprout ┆ … ┆ 0.0           ┆ 0.0          ┆ 0.0          ┆ 0.0          │
+│            ┆ 9440f23aa0f85 ┆ fe7ef909c8674 ┆ Social ┆   ┆               ┆              ┆              ┆              │
+│            ┆ 56c3…         ┆ 466d…         ┆        ┆   ┆               ┆              ┆              ┆              │
+└────────────┴───────────────┴───────────────┴────────┴───┴───────────────┴──────────────┴──────────────┴──────────────┘
+
+========== Script Completed ==========
